@@ -397,7 +397,7 @@ ____________________________________________
 
 ____________________________________________
 
-## Usage
+## <a id="Usage"></a>Usage
 ### HEXString<br>
 ```objc 
 UILabel *view0 = [[UILabel alloc] initWithFrame:CGRectMake(30, 30, 250, 50)];
