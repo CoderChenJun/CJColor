@@ -1,8 +1,11 @@
 # CJColorExample
 * CJColor - a easy way to use UIColor by color name, RGB, HEXString
+
 _____________________________________________
+
 ### Author:CoderChenJun
 ### Email:Coder.ChenJun@qq.com
+
 ____________________________________________
 ## Catalog
 * Describtion<br>
@@ -13,6 +16,7 @@ ____________________________________________
   * HEXString
   * color name
   * RGB
+
 ____________________________________________
 ## Describtion
 ### initialisations<br>
@@ -58,6 +62,7 @@ ____________________________________________
 /** 蔚蓝色 */
 + (UIColor *)azureColor;
 ```
+
 * name starting with B
 ```objc
 /** 米色 */
@@ -74,6 +79,7 @@ ____________________________________________
 /** 树干色 */
 + (UIColor *)burlyWoodColor;
 ```
+
 * name starting with C
 ```objc
 /** 军校蓝色 */
@@ -92,6 +98,7 @@ ____________________________________________
 + (UIColor *)crimsonColor;
 //+ (UIColor *)cyanColor;
 ```
+
 * name starting with D
 ```objc
 /** 深蓝色 */
@@ -135,8 +142,8 @@ ____________________________________________
 + (UIColor *)dimGrayColor;
 /** 宝蓝色 */
 + (UIColor *)dodgerBlueColor;
-
 ```
+
 * name starting with F
 ```objc
 /** 火砖色 */
@@ -148,6 +155,7 @@ ____________________________________________
 /** 紫红色 */
 + (UIColor *)fuchsiaColor;
 ```
+
 * name starting with G
 ```objc
 /** Gainsboro色 */
@@ -159,11 +167,11 @@ ____________________________________________
 /** 秋色 */
 + (UIColor *)goldenRodColor;
 //+ (UIColor *)grayColor;
-
 + (UIColor *)greenGOColor;
 /** 绿黄色 */
 + (UIColor *)greenYellowColor;
 ```
+
 * name starting with H
 ```objc
 /** 浅粉红色 */
@@ -171,6 +179,7 @@ ____________________________________________
 /** 热情的粉红色 */
 + (UIColor *)hotPinkColor;
 ```
+
 * name starting with I
 ```objc
 /** 印度红色 */
@@ -180,11 +189,13 @@ ____________________________________________
 /** 象牙色 */
 + (UIColor *)ivoryColor;
 ```
+
 * name starting with K
 ```objc
 /** 卡其色 */
 + (UIColor *)khakiColor;
 ```
+
 * name starting with L
 ```objc
 /** 薰衣草花的淡紫色 */
@@ -227,6 +238,7 @@ ____________________________________________
 /** 亚麻色 */
 + (UIColor *)linenColor;
 ```
+
 * name starting with M
 ```objc
 //+ (UIColor *)magentaColor;
@@ -259,6 +271,7 @@ ____________________________________________
 /** 鹿皮色 */
 + (UIColor *)moccasinColor;
 ```
+
 * name starting with N
 ```objc
 /** 耐尔洁白色 */
@@ -266,6 +279,7 @@ ____________________________________________
 /** 海军蓝色 */
 + (UIColor *)navyColor;
 ```
+
 * name starting with O
 ```objc
 /** 老饰带色 */
@@ -280,6 +294,7 @@ ____________________________________________
 /** 兰花紫色 */
 + (UIColor *)orchidColor;
 ```
+
 * name starting with P
 ```objc
 /** 灰秋色 */
@@ -304,6 +319,7 @@ ____________________________________________
 + (UIColor *)powderBlueColor;
 //+ (UIColor *)purpleColor;
 ```
+
 * name starting with R
 ```objc
 //+ (UIColor *)redColor;
@@ -312,6 +328,7 @@ ____________________________________________
 /** 皇家蓝色 */
 + (UIColor *)royalBlueColor;
 ```
+
 * name starting with S
 ```objc
 /** 马鞍棕色 */
@@ -341,6 +358,7 @@ ____________________________________________
 /** 钢蓝色 */
 + (UIColor *)steelBlueColor;
 ```
+
 * name starting with T
 ```objc
 /** 晒色 */
@@ -354,11 +372,13 @@ ____________________________________________
 /** 绿宝石色 */
 + (UIColor *)turquoiseColor;
 ```
+
 * name starting with V
 ```objc
 /** 紫罗兰色 */
 + (UIColor *)violetColor;
 ```
+
 * name starting with W
 ```objc
 /** 小麦色 */
@@ -367,13 +387,15 @@ ____________________________________________
 /** 烟白色 */
 + (UIColor *)whiteSmokeColor;
 ```
+
 * name starting with Y
 ```objc
 //+ (UIColor *)yellowColor;
 /** 黄绿色 */
 + (UIColor *)yellowGreenColor;
 ```
-————————————————————————————————-——————————————————
+
+____________________________________________
 
 ## Usage
 ### HEXString<br>
