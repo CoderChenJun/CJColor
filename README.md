@@ -23,10 +23,10 @@ ____________________________________________
 /** R: G: B: A=1 */
 + (UIColor *)RGBColorWithRed:(NSUInteger)red green:(NSUInteger)green blue:(NSUInteger)blue;
 
-/** 十六进制(#000000) A: */
+/** Hexadecimal:(#000000) A: */
 + (UIColor *)colorWithHexString:(NSString *)hexColorString alpha:(CGFloat)alpha;
 
-/** 十六进制(#000000) A=1 */
+/** Hexadecimal:(#000000) A=1 */
 + (UIColor *)colorWithHexString:(NSString *)hexColorString;
 ```
 
