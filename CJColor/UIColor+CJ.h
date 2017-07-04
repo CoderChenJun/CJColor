@@ -11,9 +11,7 @@
 #define RGBColor(r, g, b) [UIColor RGBColorWithRed:r green:g blue:b]
 #define HEXColor(s) [UIColor colorWithHexString:s]
 
-
 @interface UIColor (CJ)
-
 
 #pragma mark - initialisations
 /** R: G: B: A: */
