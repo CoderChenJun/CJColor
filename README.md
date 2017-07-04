@@ -1,5 +1,5 @@
 # CJColorExample
-* CJColor - a easy way to use UIColor by color's name, RGB, HEXString
+* CJColor - a easy way to use UIColor by color name, RGB, HEXString
 _____________________________________________
 ### Author:CoderChenJun
 ### Email:Coder.ChenJun@qq.com
@@ -8,14 +8,10 @@ ____________________________________________
 * Describtion<br>
   * initialisations
   * get color components and values
-  * color's name
+  * color name
 * Usage<br>
   * showHUDText
     * HUDTypeNull-无图
-    * HUDTypeSmile-笑脸
-    * HUDTypeCry-哭脸
-    * HUDTypeSuccess-打钩
-    * HUDTypeError-打叉
   * showMessage
 ____________________________________________
 ## Describtion
@@ -48,7 +44,7 @@ ____________________________________________
 - (CGFloat)alphaValue;
 ```
 
-### color's name<br>
+### color name<br>
 * name starting with A
 ```objc
 /** 爱丽丝蓝色 */
