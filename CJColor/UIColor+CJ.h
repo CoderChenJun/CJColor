@@ -20,10 +20,10 @@
 /** R: G: B: A=1 */
 + (UIColor *)RGBColorWithRed:(NSUInteger)red green:(NSUInteger)green blue:(NSUInteger)blue;
 
-/** 十六进制(#000000) A: */
+/** Hexadecimal:(#000000) A: */
 + (UIColor *)colorWithHexString:(NSString *)hexColorString alpha:(CGFloat)alpha;
 
-/** 十六进制(#000000) A=1 */
+/** Hexadecimal:(#000000) A=1 */
 + (UIColor *)colorWithHexString:(NSString *)hexColorString;
 
 
@@ -98,14 +98,14 @@
 
 
 #pragma ------D------
-/** 深蓝 */
+/** 深蓝色 */
 + (UIColor *)darkBlueColor;
-/** 深蓝 */
+/** 深青色 */
 + (UIColor *)darkCyanColor;
-/** 深蓝 */
+/** 暗金杖色 */
 + (UIColor *)darkGoldenRodColor;
 //+ (UIColor *)darkGrayColor;
-/** 深蓝色 */
+/** 深绿色 */
 + (UIColor *)darkGreenColor;
 /** 暗卡其色 */
 + (UIColor *)darkKhakiColor;
@@ -238,7 +238,7 @@
 
 
 
-#pragma ------L------
+#pragma ------M------
 //+ (UIColor *)magentaColor;
 /** 栗色 */
 + (UIColor *)maroonColor;
