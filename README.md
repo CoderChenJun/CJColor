@@ -94,14 +94,14 @@ ____________________________________________
 ```
 * name starting with D
 ```objc
-/** 深蓝 */
+/** 深蓝色 */
 + (UIColor *)darkBlueColor;
-/** 深蓝 */
+/** 深青色 */
 + (UIColor *)darkCyanColor;
-/** 深蓝 */
+/** 暗金杖色 */
 + (UIColor *)darkGoldenRodColor;
 //+ (UIColor *)darkGrayColor;
-/** 深蓝色 */
+/** 深绿色 */
 + (UIColor *)darkGreenColor;
 /** 暗卡其色 */
 + (UIColor *)darkKhakiColor;
@@ -135,6 +135,7 @@ ____________________________________________
 + (UIColor *)dimGrayColor;
 /** 宝蓝色 */
 + (UIColor *)dodgerBlueColor;
+
 ```
 * name starting with F
 ```objc
