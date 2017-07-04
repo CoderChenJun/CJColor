@@ -8,18 +8,18 @@ _____________________________________________
 
 ____________________________________________
 ## Catalog
-* Describtion<br>
-  * initialisations
-  * get color components and values
-  * color name
-* Usage<br>
+* [Description](#Description)
+  * [initialisations](#initialisations)
+  * [get color components and values](#getColorComponentsAndValues)
+  * [color name](#colorname)
+* [Usage](#Usage)
   * HEXString
   * color name
   * RGB
 
 ____________________________________________
-## Describtion
-### initialisations<br>
+## <a id="Description"></a>Description<br>
+### <a id="initialisations"></a>initialisations<br>
 ```objc 
 /** R: G: B: A: */
 + (UIColor *)RGBColorWithRed:(NSUInteger)red green:(NSUInteger)green blue:(NSUInteger)blue alpha:(CGFloat)alpha;
@@ -33,8 +33,8 @@ ____________________________________________
 /** Hexadecimal:(#000000) A=1 */
 + (UIColor *)colorWithHexString:(NSString *)hexColorString;
 ```
-
-### get color components and values<br>
+>
+### <a id="getColorComponentsAndValues"></a>get color components and values<br>
 ```objc 
 - (CGFloat)redValue;
 - (NSUInteger)RGBRedValue;
@@ -48,7 +48,7 @@ ____________________________________________
 - (CGFloat)alphaValue;
 ```
 
-### color name<br>
+### <a id="colorname"></a>color name<br>
 * name starting with A
 ```objc
 /** 爱丽丝蓝色 */
