@@ -10,9 +10,9 @@ ____________________________________________
   * get color components and values
   * color name
 * Usage<br>
-  * showHUDText
-    * HUDTypeNull-无图
-  * showMessage
+  * HEXString
+  * color name
+  * RGB
 ____________________________________________
 ## Describtion
 ### initialisations<br>
@@ -373,9 +373,35 @@ ____________________________________________
 /** 黄绿色 */
 + (UIColor *)yellowGreenColor;
 ```
+————————————————————————————————-——————————————————
 
-
-
+## Usage
+### HEXString<br>
+```objc 
+UILabel *view0 = [[UILabel alloc] initWithFrame:CGRectMake(30, 30, 250, 50)];
+view0.backgroundColor = HEXColor(@"#FFF0F5");
+view0.text = @"HEXColor(@\"#FFF0F5\");";
+[self.view addSubview:view0];
+```
+### color name<br>
+```objc 
+UILabel *view1 = [[UILabel alloc] initWithFrame:CGRectMake(30, 90, 250, 50)];
+view1.text = @"[UIColor goldColor];";
+[self.view addSubview:view1];
+```
+```objc 
+UILabel *view2 = [[UILabel alloc] initWithFrame:CGRectMake(30, 150, 250, 50)];
+view2.backgroundColor = [UIColor dodgerBlueColor];
+view2.text = @"[UIColor dodgerBlueColor];";
+[self.view addSubview:view2];
+```
+### RGB<br>
+```objc 
+UILabel *view3 = [[UILabel alloc] initWithFrame:CGRectMake(30, 210, 250, 50)];
+view3.backgroundColor = RGBColor(123, 234, 10);
+view3.text = @"RGBColor(123, 234, 10);";
+[self.view addSubview:view3];
+```
 
 
 
