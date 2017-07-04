@@ -8,7 +8,7 @@ ____________________________________________
 * Describtion<br>
   * initialisations
   * get color components and values
-  * color name
+  * color name
 * Usage<br>
   * showHUDText
     * HUDTypeNull-无图
