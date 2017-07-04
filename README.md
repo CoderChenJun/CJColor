@@ -4,7 +4,7 @@ _____________________________________________
 ### Author:CoderChenJun
 ### Email:Coder.ChenJun@qq.com
 ____________________________________________
-## 目录
+## Catalog
 * Describtion<br>
   * initialisations
   * get color components and values
