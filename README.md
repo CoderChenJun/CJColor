@@ -7,6 +7,7 @@ _____________________________________________
 ### Email:Coder.ChenJun@qq.com
 
 ____________________________________________
+
 ## Catalog
 * [Description](#Description)
   * [initialisations](#initialisations)
@@ -18,8 +19,10 @@ ____________________________________________
   * RGB
 
 ____________________________________________
+
 ## <a id="Description"></a>Description<br>
 ### <a id="initialisations"></a>initialisations<br>
+
 ```objc 
 /** R: G: B: A: */
 + (UIColor *)RGBColorWithRed:(NSUInteger)red green:(NSUInteger)green blue:(NSUInteger)blue alpha:(CGFloat)alpha;
@@ -33,8 +36,10 @@ ____________________________________________
 /** Hexadecimal:(#000000) A=1 */
 + (UIColor *)colorWithHexString:(NSString *)hexColorString;
 ```
->
+
+
 ### <a id="getColorComponentsAndValues"></a>get color components and values<br>
+
 ```objc 
 - (CGFloat)redValue;
 - (NSUInteger)RGBRedValue;
@@ -50,6 +55,7 @@ ____________________________________________
 
 ### <a id="colorname"></a>color name<br>
 * name starting with A
+
 ```objc
 /** 爱丽丝蓝色 */
 + (UIColor *)aliceBlueColor;
@@ -64,6 +70,7 @@ ____________________________________________
 ```
 
 * name starting with B
+
 ```objc
 /** 米色 */
 + (UIColor *)beigeColor;
@@ -81,6 +88,7 @@ ____________________________________________
 ```
 
 * name starting with C
+
 ```objc
 /** 军校蓝色 */
 + (UIColor *)cadetBlueColor;
@@ -100,6 +108,7 @@ ____________________________________________
 ```
 
 * name starting with D
+
 ```objc
 /** 深蓝色 */
 + (UIColor *)darkBlueColor;
@@ -145,6 +154,7 @@ ____________________________________________
 ```
 
 * name starting with F
+
 ```objc
 /** 火砖色 */
 + (UIColor *)fireBrickColor;
@@ -157,6 +167,7 @@ ____________________________________________
 ```
 
 * name starting with G
+
 ```objc
 /** Gainsboro色 */
 + (UIColor *)gainsboroColor;
@@ -173,6 +184,7 @@ ____________________________________________
 ```
 
 * name starting with H
+
 ```objc
 /** 浅粉红色 */
 + (UIColor *)honeyDewColor;
@@ -181,6 +193,7 @@ ____________________________________________
 ```
 
 * name starting with I
+
 ```objc
 /** 印度红色 */
 + (UIColor *)indianRedColor;
@@ -191,12 +204,14 @@ ____________________________________________
 ```
 
 * name starting with K
+
 ```objc
 /** 卡其色 */
 + (UIColor *)khakiColor;
 ```
 
 * name starting with L
+
 ```objc
 /** 薰衣草花的淡紫色 */
 + (UIColor *)lavenderColor;
@@ -240,6 +255,7 @@ ____________________________________________
 ```
 
 * name starting with M
+
 ```objc
 //+ (UIColor *)magentaColor;
 /** 栗色 */
@@ -273,6 +289,7 @@ ____________________________________________
 ```
 
 * name starting with N
+
 ```objc
 /** 耐尔洁白色 */
 + (UIColor *)navajoWhiteColor;
@@ -281,6 +298,7 @@ ____________________________________________
 ```
 
 * name starting with O
+
 ```objc
 /** 老饰带色 */
 + (UIColor *)oldLaceColor;
@@ -296,6 +314,7 @@ ____________________________________________
 ```
 
 * name starting with P
+
 ```objc
 /** 灰秋色 */
 + (UIColor *)paleGoldenRodColor;
@@ -321,6 +340,7 @@ ____________________________________________
 ```
 
 * name starting with R
+
 ```objc
 //+ (UIColor *)redColor;
 /** 玫瑰棕色 */
@@ -330,6 +350,7 @@ ____________________________________________
 ```
 
 * name starting with S
+
 ```objc
 /** 马鞍棕色 */
 + (UIColor *)saddleBrownColor;
@@ -360,6 +381,7 @@ ____________________________________________
 ```
 
 * name starting with T
+
 ```objc
 /** 晒色 */
 + (UIColor *)tanColor;
@@ -374,12 +396,14 @@ ____________________________________________
 ```
 
 * name starting with V
+
 ```objc
 /** 紫罗兰色 */
 + (UIColor *)violetColor;
 ```
 
 * name starting with W
+
 ```objc
 /** 小麦色 */
 + (UIColor *)wheatColor;
@@ -389,6 +413,7 @@ ____________________________________________
 ```
 
 * name starting with Y
+
 ```objc
 //+ (UIColor *)yellowColor;
 /** 黄绿色 */
@@ -399,25 +424,31 @@ ____________________________________________
 
 ## <a id="Usage"></a>Usage
 ### HEXString<br>
+
 ```objc 
 UILabel *view0 = [[UILabel alloc] initWithFrame:CGRectMake(30, 30, 250, 50)];
 view0.backgroundColor = HEXColor(@"#FFF0F5");
 view0.text = @"HEXColor(@\"#FFF0F5\");";
 [self.view addSubview:view0];
 ```
+
 ### color name<br>
+
 ```objc 
 UILabel *view1 = [[UILabel alloc] initWithFrame:CGRectMake(30, 90, 250, 50)];
 view1.text = @"[UIColor goldColor];";
 [self.view addSubview:view1];
 ```
+
 ```objc 
 UILabel *view2 = [[UILabel alloc] initWithFrame:CGRectMake(30, 150, 250, 50)];
 view2.backgroundColor = [UIColor dodgerBlueColor];
 view2.text = @"[UIColor dodgerBlueColor];";
 [self.view addSubview:view2];
 ```
+
 ### RGB<br>
+
 ```objc 
 UILabel *view3 = [[UILabel alloc] initWithFrame:CGRectMake(30, 210, 250, 50)];
 view3.backgroundColor = RGBColor(123, 234, 10);
