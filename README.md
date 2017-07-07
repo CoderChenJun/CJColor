@@ -457,7 +457,7 @@ view3.backgroundColor = RGBColor(123, 234, 10);
 view3.text = @"RGBColor(123, 234, 10);";
 [self.view addSubview:view3];
 ```
-![smile](https://github.com/CoderChenJun/CJColorExample/blob/master/readmeImg.png "readmeImg.png")<br>
+![smile](https://raw.githubusercontent.com/CoderChenJun/CJColorExample/master/readmeImg.png "readmeImg.png")<br>
 ___________________________________
 
 
