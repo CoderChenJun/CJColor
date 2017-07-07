@@ -1,4 +1,4 @@
-![smile](https://raw.githubusercontent.com/CoderChenJun/CJColorExample/master/CJColor.png "Logo")<br>
+![smile](https://raw.githubusercontent.com/CoderChenJun/CJColorExample/master/CJLOGO.png "Logo")<br>
 
 # CJColorExample
 * CJColor - a easy way to use UIColor by color name, RGB, HEXString
